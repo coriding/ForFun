@@ -5,11 +5,15 @@ class Employee:
         self.pay = pay
         self.email = first + '.' + last + '@' + company + '.com'
 
-emp1 = Employee("Mike", "Wizowski", 200000, "Wizowski")
-emp1 = Employee("Steve", "Wonder", 2000000, "stevie")
+    def fullname(self):
+        return(self.first + ' ' + self.last)
 
-print(emp1.first, emp1.last, ' Email:', emp1.email)
+#### End class
 
+emp1 = Employee('Mike', 'Wizowski', 200000, 'Wizowski')
+emp1 = Employee('Steve', 'Wonder', 2000000, 'stevie')
+
+print(emp1.fullname() + ', Email: ' + emp1.email)
 # this is a test
 
 # second change
