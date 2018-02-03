@@ -1,4 +1,5 @@
 class Employee:
+<<<<<<< HEAD
     def __init__(self, first, last, pay, company):
         self.first = first
         self.last = last
@@ -7,6 +8,9 @@ class Employee:
 
     def fullname(self):
         return(self.first + ' ' + self.last)
+=======
+    pass
+>>>>>>> parent of 4f85b85... almost working class
 
 #### End class
 
