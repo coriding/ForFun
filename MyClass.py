@@ -1,5 +1,4 @@
 class Employee:
-<<<<<<< HEAD
     def __init__(self, first, last, pay, company):
         self.first = first
         self.last = last
