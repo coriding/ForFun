@@ -7,9 +7,6 @@ class Employee:
 
     def fullname(self):
         return(self.first + ' ' + self.last)
-=======
-    pass
->>>>>>> parent of 4f85b85... almost working class
 
 #### End class
 
